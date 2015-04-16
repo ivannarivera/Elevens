@@ -43,7 +43,7 @@ public class Card {
      * @return this <code>Card's</code> suit.
      */
     public String suit() {
-
+        return suit;
     }
 
     /**
