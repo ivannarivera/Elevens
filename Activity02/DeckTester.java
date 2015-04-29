@@ -10,6 +10,13 @@ public class DeckTester {
 	 *	@param args is not used.
 	 */
 	public static void main(String[] args) {
-		/* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+	String[] ranks = {"Ace", "Queen", "King", "Jack"};
+	    String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
+	    int[] vals = {14, 12, 13, 11};
+		Deck deck1 = new Deck(ranks, suits, vals);
+		Deck deck2 = new Deck(ranks, suits, vals);
+		Deck deck3 = new Deck(ranks, suits, vals);
+		System.out.println(deck1.size());
+		System.out.println(deck2.deal().toString());
 	}
 }
